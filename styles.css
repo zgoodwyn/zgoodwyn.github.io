@@ -1,0 +1,251 @@
+/*The container for everything on the page*/
+#pageContainer {
+	min-height:100%;
+	position:relative;
+	background-color: #FFFAE4;
+}
+/*Styling for the overall page*/
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+/*The overall container for the header*/
+.top {
+	background-color: #26393D;
+	border-bottom: 5px solid #40627C;
+	/*padding:10px;*/
+}
+/*Holds my name and website navigation*/
+.header {
+	margin: 0 auto;
+	width: 80%;
+	overflow: auto;
+}
+/*Styling for my name in the header*/
+.name {
+	color: #FFFAE4;
+	float: left;
+	width: 40%;
+}
+/*Styling for the buttons in the header*/
+.buttons {
+	float: right;
+}
+/*The main section of each page*/
+#body {
+	background-color: #FFFAE4;
+    margin: 0;
+	padding-bottom: 60px;
+}
+/*The background for the bottom*/
+footer {
+	border-top: 5px solid #40627C;
+	background-color: #26393D;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+}
+/*The text in the footer*/
+.bottom {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding-top: 10px;
+	font-family: 'Helvetica';
+    color: #FFFAE4;
+	text-indent: 2.0em;
+	text-align: center;
+    font-size: 1em;
+	
+	bottom: 0;
+	height: center;
+}
+hr {
+	border-top: 1px solid #d5d5d5;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/*Link styling*/
+a {
+    text-decoration: none;
+	text-align: left;
+}
+/*Styling for hovering over links*/
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+	font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+	font-size: 2em;
+	font-family:'Helvetica';
+}
+/*Category title in my resume*/
+h3 {
+	font-size: 1.5em;
+	font-family: 'Helvetica';
+	padding: 0;
+	margin: 0;
+}
+/*Styling for the text in my about me*/
+p {
+	font-family: 'Helvetica';
+    font-size: 1.5em;
+    color: #333;
+	text-indent: 2.0em;
+	text-align: left;
+}
+/*Styling for my email on the home page*/
+.p2 {
+	font-family: 'Helvetica';
+	display: inline-block;
+    font-size: 1.5em;
+    color: #333;
+}
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 2em;
+}
+ul.posts li {
+    list-style: none;
+}
+/*The buttons for going to other pages*/
+.button {
+	border-radius: 12px;
+	background-color: #E8E595;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-bottom: 12px;
+	float: right;
+	margin-right: 5px;
+}
+/*The change in appearance of the buttons*/
+.button:hover {
+	background-color: #D0A825;
+	text-decoration: none;
+}
+/*The button for the current page*/
+.currentButton {
+	border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-bottom: 12px;
+	float: right;
+	margin-right: 5px;
+	background-color: #D0A825;
+	color: #FFFAE4;
+}
+/*The change in appearance of the current button*/
+.currentButton:hover {
+	text-decoration:none;
+}
+/*The styling for my resume on the resume page*/
+.resume {
+	width: 65%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-bottom: 70px;
+	background-color: #FFFAE4;
+}
+/*Creating space on the left for work experience in my resume*/
+.tab {
+	margin-left: 3em;
+}
+/*The container for my projects on the projects page*/
+.project {
+	padding: 15px 32px;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+}
+/*The line separating projects on the projects page*/
+.break {
+	width: 70%;
+	border-bottom: 1px solid #40627C;
+	margin: 0 auto;
+}
+/*Styling for the video embeds*/
+.content {
+	display: inline-block;
+	vertical-align: center;
+	width: 560px;
+	padding: 5px;
+	margin: 0 auto;
+}
+.media {
+	display: block;
+	margin: 0 auto;
+}
+/*The styling for the text describing my projects on the projects page*/
+.information {
+	vertical-align: top;
+	width: 560px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin: 0 auto;
+}
+/*The container for describing my projects on the projects page*/
+.infoContainer {
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	margin: 0 auto;
+}
+/*The text for the lists on my resume*/
+.listText {
+	
+	font-family: 'Helvetica';
+	font-size: 1.2em;
+}
+/*Picture of me on the home page*/
+.picture {
+	display: inline-block;
+	vertical-align: top;
+	width: 394px;
+	height: 700px;
+	padding: 15px 20px;
+	margin: 0 auto;
+}
+/*About me text on the home page*/
+.about {
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	padding: 12px 20px;
+	margin: 0 auto;
+}
+/*Container for my picture and about me section on the home page*/
+.home {
+	padding: 32px 32px;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+}
+/*Container for the about me section on the home page*/
+.container {
+	display: inline-block;
+	vertical-align: top;
+	padding: 12px 20px;
+	margin: 0 auto;
+}
